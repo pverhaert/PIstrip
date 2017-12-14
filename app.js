@@ -1,11 +1,10 @@
 /* 
-Debug app.js with node:
---------------------------------------------------------------------------------
-$ sudo node app
-
-pm2 cheat sheet: http://pm2.keymetrics.io/docs/usage/quick-start/#cheatsheet
+pm2 info: 
+http://pm2.keymetrics.io/docs/usage/quick-start/#cheatsheet
+https://www.npmjs.com/package/pm2#main-features
 --------------------------------------------------------------------------------
 Debug app.js:               $ sudo pm2 start app.js --watch --no-daemon
+Run app.js:                 $ sudo pm2 start app.js --watch
 Save runing processes:      $ sudo pm2 save
 Display all processes:      $ sudo pm2 list
 Stop app.js:                $ sudo pm2 stop app.js
